@@ -68,7 +68,7 @@ namespace Ticker
                     TickerManager.Ins.RemoveTicker(tickId);//就这么着吧，丑就丑吧
                     completeCb?.Invoke();
                 } 
-                else if(isSuccess)
+                else// if(isSuccess)
                 {
                     tick -= delta;
                     lastTickTime = tickTime;
