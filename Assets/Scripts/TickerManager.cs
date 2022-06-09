@@ -97,7 +97,7 @@ namespace Ticker
                     }
                     else
                     {
-                        break;//只要一个断了，后面的说明就肯定断了
+                        //break;//只要一个断了，后面的说明就肯定断了
                     }
                 }
             }
